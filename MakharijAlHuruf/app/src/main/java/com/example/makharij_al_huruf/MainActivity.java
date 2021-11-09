@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void openRepository(View view)
     {
-        String url = "https://github.com/";
+	String url = "https://github.com/anas1590/makharij-al-huruf";
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(url));
         startActivity(intent);
